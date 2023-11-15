@@ -44,6 +44,9 @@ a {
 }
 
 main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     margin: 0 5px;
 }
 
@@ -64,11 +67,14 @@ main>img {
 }
 
 footer {
-    margin: 0 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 6%;
+    background-color: black;
+    color: white;
+    text-align: center;
 }
-
-
 
 /* 
 TENTATIVA - 1
