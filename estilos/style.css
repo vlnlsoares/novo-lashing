@@ -43,19 +43,29 @@ a {
     color: rgb(156, 156, 156);
 }
 
+h2 {
+    font-size: 45px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 30px;
+    text-align: end;
+}
+
 main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     margin: 0 5px;
+    height: 100%;
 }
 
-h2 {
-    text-align: center;
-}
-
-h1 {
-    text-align: end;
+main>a {
+    max-width: max-content;
+    display: inline-block;
+    margin: 0px;
+    background-color: green;
 }
 
 main>img {
@@ -64,6 +74,18 @@ main>img {
     border: 2px solid #ffffff9d;
     border-radius: 50%;
     box-shadow: 1px 1px 10px #ffffff82;
+}
+
+.redes-sociais {
+    align-self: flex-end;
+    
+    
+    
+}
+
+main>div>a>img {
+    width: 30px;
+    margin-right: 10px;
 }
 
 footer {
