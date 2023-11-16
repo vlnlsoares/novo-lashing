@@ -9,7 +9,7 @@
 }
 
 * {
-    font: normal 1em bold arial;
+    font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -34,7 +34,7 @@ header {
     height: max-content;
     background-color: pink;
     border-radius: 10px;
-    padding: 7px 5px;
+    padding: 7px 3px;
 }
 
 a {
@@ -43,21 +43,35 @@ a {
     color: rgb(156, 156, 156);
 }
 
-h2 {
-    font-size: 45px;
-    text-align: center;
-}
 
-h1 {
-    font-size: 30px;
-    text-align: end;
-}
 
 main {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     margin: 0 5px;
+    height: 100%;
+}
+
+.titulos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 33px;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    text-align: end;
+}
+
+.titulos {
     height: 100%;
 }
 
@@ -76,13 +90,20 @@ main>img {
     box-shadow: 1px 1px 10px #ffffff82;
 }
 
-.redes-sociais {
-    align-self: flex-end;
-}
-
 main>div>a>img {
     width: 30px;
     margin-right: 10px;
+}
+
+.redes-sociais {
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+main>div>a {
+    margin: 0px;
 }
 
 footer {
@@ -90,8 +111,8 @@ footer {
     justify-content: center;
     align-items: center;
     height: 6%;
-    background-color: black;
-    color: white;
+    background-color: rgb(59, 59, 59);
+    color: rgb(219, 219, 219);
     text-align: center;
 }
 
